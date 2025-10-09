@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document Object Model</title>
+</head>
+
+<body>
+    <h1 id="mHead">Document Object Model (DOM)</h1>
+    <div id="container">
+        <form onsubmit="handleSubmit(event)" id="regiForm">
+            <label for="firstName">First Name:</label>
+            <input type="text" id="firstName" name="firstName" required oninput="handleChange(event)">
+            <br>
+            <label for="lastName">Last Name:</label>
+            <input type="text" id="lastName" name="lastName" required oninput="handleChange(event)">
+            <br>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required oninput="handleChange(event)">
+            <br>
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" required oninput="handleChange(event)">
+            <br>
+            <div id="passwordMessage"></div>
+            <label for="confirmPassword">Confirm Password:</label>
+            <input type="password" id="confirmPassword" name="confirmPassword" required oninput="handleChange(event)">
+            <br>
+        </form>
+    </div>
+    <script src="index.js"></script>
+</body>
+
+</html>
