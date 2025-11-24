@@ -188,7 +188,7 @@ console.log(copiedPerson);
   hobbies: ["coding", "music"]
 }
 
-🧠 Check independence (Deep Copy confirmation)
+Check independence (Deep Copy confirmation)
 copiedPerson.address.city = "Delhi";
 copiedPerson.hobbies.push("travel");
 
