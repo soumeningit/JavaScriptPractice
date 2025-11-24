@@ -60,7 +60,7 @@
     }
         now when the function execution is completed, the execution context is popped from the
         global execution context and the memory is freed up. So the memory will look like this:
-    and the control goes back to the global execution context.
+        and the control goes back to the global execution context.
 
     And the global execution context , execution context all are maintained in a stack
     which is known as the Call Stack or Execution Stack.
